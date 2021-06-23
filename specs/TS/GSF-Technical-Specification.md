@@ -10,7 +10,7 @@ Define as it relates to Green Software Foundation Activity. If it adds clarity, 
 ```
 The policy for reference lists is:
 1. GSF documents listed should have at least one approved version – draft-only docs should not be referenced.
-Exception exists for documents that will be approved with or after the referenced doc is approved (may be part of same enabler package). In short – approved docs should not reference unapproved docs.
+An exception exists for documents approved with or after the referenced doc is approved (maybe part of the same enabler package). In short – approved docs should not reference unapproved docs.
 2. The name + version (no date) for GSF specifications are generally sufficient – dates should be used only if there is a specific reason to limit the usage.
 3. References to other affiliate docs should similarly provide sufficient information to uniquely determine the needed document and should provide the appropriate source information.
 4. The URL for GSF material (new GSF and affiliate) should always be http://www.greensoftware.foundation
@@ -19,7 +19,7 @@ Models to use:
 	[REFLABEL]	<General Model> "Ref Title", Ref information (source, date, id), URL:http//<ref-source>/ 
 	[GSFDOC]	<GSF Model> "GSF Document Title",{ Version x.y,} Green Software Foundation™, GSF <docname>{    <version>}, URL:http//www.openmobilealliance.org/ 
 
-If there are no entries in the table – enter ‘none’ to be clear.
+If there are no entries in the table – enter 'none' to be precise.
 
 DELETE THIS COMMENT
 ```
@@ -44,10 +44,8 @@ Add/Remove reference rows as needed - DELETE This Row
 ### Informative References
 
 ```
-Check the version of the Dictionary you are using and update the reference below. Delete the [GSFDICT] entry if 
-the dictionary is not used. In general, use the latest
-available version unless seeking alignment with an 
-existing set of specifications.
+Check the version of the Dictionary you are using and update the reference below. Delete the [GSFDICT] entry if the Dictionary is not used. In general, use the latest
+available version unless seeking alignment with an existing set of specifications.
 
 DELETE THIS COMMENT
 ```
@@ -70,7 +68,7 @@ Add/Remove references as needed - DELETE This Row
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119].
 
-All sections and appendixes, except "Scope" and "Introduction", are normative, unless they are explicitly indicated to be informative.
+All sections and appendixes, except "Scope" and "Introduction", are normative unless they are explicitly indicated to be informative.
 
 ```
 If needed, describe or declare using appropriate normative references the additional conventions that are used. DELETE THIS COMMENT
@@ -141,8 +139,7 @@ DELETE THIS COMMENT
 ### Version 1.0
 
 ```
-This section provides a high level, concise and informative description of the main functionality supported in 
-the initial version of the specification. The description should be brief, target length should be a few paragraphs. 
+This section provides a high level, concise and informative description of the main functionality supported in the initial version of the specification. The description should be brief; the target length should be a few paragraphs. 
 When the enabler or reference release is finished, this description should be aligned with the final functionality. 
 
 DELETE THIS COMMENT
@@ -153,7 +150,7 @@ DELETE THIS COMMENT
 ```
 This section should be included for each new major or minor version of the specification.
 
-It should provide a high level, concise and informative description of the new or modified functionality introduced in this version of the specification, compared to the previous version. The description should be brief, target length should be a few paragraphs. When the enabler or reference release is finished, this description should be 
+It should provide a high level, concise and informative description of the new or modified functionality introduced in this version of the specification, compared to the previous version. The description should be brief, and the target length should be a few paragraphs. When the enabler or reference release is finished, this description should be 
 aligned with the final functionality differences.
 
 DELETE THIS COMMENT
@@ -162,7 +159,7 @@ DELETE THIS COMMENT
 #### Version (x.y.z)
 
 ```
-Service indicator (z) for the document. Incremented every time a corrective update is made to the approved document version by the WG. This section should describe at a high level the main changes made to the specification compared to the previous version. The description should be brief, target length should be one paragraph.
+Service indicator (z) for the document. It is incremented every time a corrective update is made to the approved document version by the WG. This section should describe the main changes made to the specification at a high level compared to the previous version. The description should be brief, and the target length should be one paragraph.
 
 DELETE THIS COMMENT
 ```
