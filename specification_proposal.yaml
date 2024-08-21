@@ -1,0 +1,25 @@
+name:  Specification Proposal
+description: Action Item submission
+title: "[Spec-Proposal]"
+labels: ["Spec-Proposal"]
+projects: ["Add project"]
+assignees: add github username
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Define the scope of the project
+      description: Outline Action Item Details
+      placeholder: Tell us what you see
+      value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Outline Action Item Details
+      description: Outline Action Item Details
+      placeholder: Tell us what you see
+      value: "Add details"
+    validations:
+      required: true
