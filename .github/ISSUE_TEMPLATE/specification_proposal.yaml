@@ -3,7 +3,7 @@ description: Action Item submission
 title: "[Spec-Proposal]"
 labels: ["Spec-Proposal"]
 projects: ["Add project"]
-assignees: add GitHub username
+assignees: seanmcilroy29
 body:
   - type: textarea
     id: scope
