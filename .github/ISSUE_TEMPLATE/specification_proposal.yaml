@@ -3,23 +3,23 @@ description: Action Item submission
 title: "[Spec-Proposal]"
 labels: ["Spec-Proposal"]
 projects: ["Add project"]
-assignees: add github username
+assignees: add GitHub username
 body:
   - type: textarea
-    id: what-happened
+    id: scope
     attributes:
       label: Define the scope of the project
-      description: Outline Action Item Details
-      placeholder: Tell us what you see
+      description: Define the scope of the project
+      placeholder: Define the scope of the project
       value: "Add details"
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: Problem-statement
     attributes:
-      label: Outline Action Item Details
-      description: Outline Action Item Details
-      placeholder: Tell us what you see
+      label: Problem statement
+      description: Problem statement
+      placeholder: Problem statement
       value: "Add details"
     validations:
       required: true
