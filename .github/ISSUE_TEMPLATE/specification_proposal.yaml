@@ -5,7 +5,7 @@ labels: ["Spec-Proposal"]
 projects: ["Add project"]
 assignees: seanmcilroy29
 body:
-   - type: textarea
+  - type: textarea
     id: Project-Title
     attributes:
       label: Project Title
