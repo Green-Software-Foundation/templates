@@ -5,6 +5,24 @@ labels: ["Spec-Proposal"]
 projects: ["Add project"]
 assignees: seanmcilroy29
 body:
+   - type: textarea
+    id: Project-Title
+    attributes:
+      label: Project Title
+      description: Project Title
+      placeholder: Project Title
+      value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: Project-Description
+    attributes:
+      label: Project-Description
+      description: Project-Description
+      placeholder: Project-Description
+      value: "A summary of the project"
+    validations:
+      required: true
   - type: textarea
     id: scope
     attributes:
