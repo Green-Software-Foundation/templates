@@ -20,7 +20,7 @@ body:
       label: Project-Description
       description: Project-Description
       placeholder: Project-Description
-      value: "A summary of the project"
+      value: "The goals of the project"
     validations:
       required: true
   - type: textarea
@@ -29,7 +29,7 @@ body:
       label: Define the scope of the project
       description: Define the scope of the project
       placeholder: Define the scope of the project
-      value: "Add details"
+      value: "Steps should be taken, which may include all steps or part of a spec development."
     validations:
       required: true
   - type: textarea
@@ -39,5 +39,14 @@ body:
       description: Problem statement
       placeholder: Problem statement
       value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: Stake-holders
+    attributes:
+      label: Stake-holders
+      description: Stake-holders
+      placeholder: Stake-holders
+      value: "List GSF members organisations willing to support this Spec."
     validations:
       required: true
